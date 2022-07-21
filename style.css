@@ -1,0 +1,174 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#FFFFFF;
+    }
+ 
+  .container{
+    display: flex;
+    width: 900px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: #161616;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+ .blog{
+     display: flex;
+    }
+    .blog-info{
+      
+      margin-top: 30px;
+      margin-bottom: 30px;
+      }
+
+      h1{ font-size: 40px;}
+      p{ font-size: 20px;}
+      h2{  font-size: 15px;}
+
+    .blog-left{
+      color: white;
+      margin-left: 15px ;
+    }
+     
+    .button{
+      padding: 12px 25px;
+      color: #fff;
+      text-decoration: none;
+      background: #DD0000;
+      border-radius: 5px;
+      margin-top: 40px;
+      margin-left: 15px;
+      
+  
+     }
+ .blog img{
+    width: 581px;
+    height: 613px;
+    margin-left: 801px;
+    margin-top: 90px;
+ }  
+
+.second{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .button-info{
+  width: 300px; ;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+ }
+
+
+.act{
+  display: grid;
+  border-radius: 15px; 
+  grid-template-columns: repeat( 3,1fr);
+  margin-right:15px ;
+  grid-gap: 20px;
+}
+
+.blog-article img{
+  width: 50px; ;
+  height: 150px;
+}
+
+.blog-content{
+  
+  padding: 30px;
+}
+
+.blog-button{
+  padding: 3px, 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+}
+
+.blog-last{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20;
+
+}
+.comment{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  
+}
+.fa-regular{
+  font-family: "Font Awesome 6 free";
+  font-weight: 500;
+}
+
+.view-all{
+  margin: 50px 0;
+  text-align: center;
+  
+  color: green;
+  padding: 10px,20px; 
+  border-radius: 5px;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  padding-top:50px;
+  color: #FFFFFF;
+}
+ 
+footer div{
+  display: flex;
+  justify-content: center;
+}
+.footer-menu{
+  
+  border: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px ;
+}
+
+.fa-brand{
+  margin: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+/* mobile device */
+
+@media only screen and (max-width:688px){
+
+  .container{
+    width: 100%;
+  
+  }
+
+  .container .second .blog .act{
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+   .container .second .blog .act{
+    flex-direction: column;
+    
+   }
+
+
+  
+
+}
