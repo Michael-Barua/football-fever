@@ -7,6 +7,8 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color:#FFFFFF;
     }
+
+  
  
   .container{
     display: flex;
@@ -135,6 +137,14 @@ footer div{
   display: flex;
   justify-content: center;
 }
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 10px;
+}
+
+
+
 .footer-menu{
   
   border: 5px;
@@ -144,7 +154,7 @@ footer div{
   padding-top: 50px ;
 }
 
-.fa-brand{
+.fa-brands{
   margin: 10px;
   color: #FFFFFF;
   font-size: 20px;
