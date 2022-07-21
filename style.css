@@ -113,8 +113,7 @@ body{
   
 }
 .fa-regular{
-  font-family: "Font Awesome 6 free";
-  font-weight: 500;
+  margin-right: 10px;
 }
 
 .view-all{
