@@ -118,7 +118,7 @@ body{
 .view-all{
   margin: 50px 0;
   text-align: center;
-  
+  justify-content: center;
   color: green;
   padding: 10px,20px; 
   border-radius: 5px;
